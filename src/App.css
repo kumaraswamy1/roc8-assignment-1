@@ -1,0 +1,60 @@
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 23rem;
+  margin: 4rem auto;
+  padding: 1rem;
+  border-radius: 0.3rem;
+ border:0.1em solid rgb(190, 189, 189);
+}
+
+form .form-input {
+  height: 2.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 0.3rem;
+  margin:1rem;
+  border:0.1em solid rgb(190, 189, 189);
+}
+.status-text{
+  text-align: center;
+}
+
+.captcha-canvas{
+  width: 16rem;
+  height: 6rem;
+}
+.captcha-field{
+  display: flex;
+  margin: 0 0.5rem ;
+  flex-direction: row;
+}
+
+.submit-button{
+  display: block;
+  padding: 1rem;
+  border:none;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  background-color:rgb(33, 88, 255);
+  color: white;
+  font-size: large;
+}
+
+
+
+
+.refresh-captcha{
+  padding:0.2rem;
+  margin:auto 0.1rem ;
+  border:none;
+  border-radius: 0.3rem;
+  background-color: rgb(190, 189, 189);
+  font-size: xx-large;
+}
+
+
